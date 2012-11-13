@@ -5,22 +5,8 @@
 * Free to use under the MIT license.
 * http://www.opensource.org/licenses/mit-license.php
 * 6/20/2012
+* Modified by Matt Goldman on 11/13/2012
 */
-
-
-/* Table of Content
-==================================================
-	#Reset & Basics
-	#Basic Styles
-	#Site Styles
-	#Typography
-	#Links
-	#Lists
-	#Images
-	#Buttons
-	#Forms
-	#Misc */
-
 
 /* #Reset & Basics (Inspired by E. Meyers)
 ================================================== */
@@ -34,7 +20,8 @@
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block; }
 	body {
-		line-height: 1; }
+		line-height: 1;
+		overflow-y: scroll; }
 	ol, ul {
 		list-style: none; }
 	blockquote, q {
@@ -47,7 +34,6 @@
 		border-collapse: collapse;
 		border-spacing: 0; }
 
-
 /* #Basic Styles
 ================================================== */
 	body {
@@ -58,12 +44,11 @@
 		-webkit-text-size-adjust: 100%;
  }
 
-
 /* #Typography
 ================================================== */
 	h1, h2, h3, h4, h5, h6 {
 		color: #181818;
-		font-family: "Georgia", "Times New Roman", serif;
+		font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 		font-weight: normal; }
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
 	h1 { font-size: 46px; line-height: 50px; margin-bottom: 14px;}
@@ -91,13 +76,11 @@
 
 	hr { border: solid #ddd; border-width: 1px 0 0; clear: both; margin: 10px 0 30px; height: 0; }
 
-
 /* #Links
 ================================================== */
 	a, a:visited { color: #333; text-decoration: underline; outline: 0; }
 	a:hover, a:focus { color: #000; }
 	p a, p a:visited { line-height: inherit; }
-
 
 /* #Lists
 ================================================== */
@@ -118,15 +101,12 @@
 
 /* #Images
 ================================================== */
-
 	img.scale-with-grid {
 		max-width: 100%;
 		height: auto; }
 
-
 /* #Buttons
 ================================================== */
-
 	.button,
 	button,
 	input[type="submit"],
@@ -205,10 +185,8 @@
     padding: 0;
 	}
 
-
 /* #Forms
 ================================================== */
-
 	form {
 		margin-bottom: 20px; }
 	fieldset {
@@ -265,5 +243,3 @@
 	.remove-bottom { margin-bottom: 0 !important; }
 	.half-bottom { margin-bottom: 10px !important; }
 	.add-bottom { margin-bottom: 20px !important; }
-
-
